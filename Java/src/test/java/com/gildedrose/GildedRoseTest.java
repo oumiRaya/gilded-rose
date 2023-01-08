@@ -1,4 +1,4 @@
-import gildedrose.Shop;
+import com.gildedrose.Shop;
 
 import org.junit.jupiter.api.Test;
 
