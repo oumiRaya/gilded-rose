@@ -6,8 +6,8 @@ namespace GildedRose
     {
         static void Main(string[] args)
         {
-            Shop shop = new Shop();
-            shop.UpdateInventory();
+            Shop shop = new Shop(new InMemoryItemsRepository());
+            shop.UpdateQuality();
         }
     }
 }

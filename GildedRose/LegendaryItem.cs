@@ -8,7 +8,7 @@ namespace GildedRose
 {
     class LegendaryItem : Item
     {
-        public LegendaryItem(string name, int quality)
+        public LegendaryItem(string name,int sellIN, int quality)
        : base(name, null , quality)
         { }
 
